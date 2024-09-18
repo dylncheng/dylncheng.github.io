@@ -664,7 +664,7 @@ environment
     
 
     const displayMore =  (numLoaded = 1) => {
-      let projectList = projects.slice(0, numLoaded);
+      let projectList = projects.slice(numLoaded - 1, numLoaded);
 
       projectList.forEach((project) => {
         const el = document.createElement("div");
