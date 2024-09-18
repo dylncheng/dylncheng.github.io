@@ -395,8 +395,8 @@ environment
           <div id="project-container"></div>
           <!-- ************* -->
         </div>
+        <button class="load-more-button" id="load-more-button">Load More</button>
       </div>
-      <button class="load-more-button" id="load-more-button">Load More</button>
     </section>
 
     <!-- Fifth Section: Skills -->
@@ -664,7 +664,6 @@ environment
     
 
     const displayMore =  (numLoaded = 1) => {
-      console.log("HI")
       let projectList = projects.slice(0, numLoaded);
 
       projectList.forEach((project) => {
