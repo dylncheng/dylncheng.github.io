@@ -392,8 +392,8 @@ environment
       <h3 class="page-title white-text blue">Projects</h3>
       <div class="container">
         <div class="row">
-          <button class="load-more-button" id="load-more-button">Load More</button>
           <div id="project-container"></div>
+          <button class="load-more-button" id="load-more-button">Load More</button>
           <!-- ************* -->
         </div>
       </div>
@@ -635,7 +635,7 @@ environment
   </script>
 
   <script>
-    const loadMoreButton = document.getElementById("load-more-btn");
+    const loadMoreButton = document.getElementById("load-more-button");
     const projectParent = document.getElementById("project-container")
     const projects = [
       {
@@ -664,6 +664,7 @@ environment
     
 
     const displayMore =  (numLoaded = 1) => {
+      console.log("HI")
       let projectList = projects.slice(0, numLoaded);
 
       projectList.forEach((project) => {
