@@ -633,8 +633,10 @@ environment
       })
     })
   </script>
+
   <script>
     const loadMoreButton = document.getElementById("load-more-btn");
+    const projectParent = document.getElementById("project-container")
     const projects = [
       {
         summary: "An AI companion hosted on AWS, and leveraging Google Cloud STT, that provides feedback on oral skills in 6 languages.",
@@ -662,39 +664,42 @@ environment
     
 
     const displayMore =  (numLoaded = 1) => {
-      const el = document.createElement("div");
-      const projectParent = document.getElementById("project-container")
-      el.classList.add("col", "s12", "m6", "l4");
+      let projectList = projects.slice(0, numLoaded);
+
+      projectList.forEach((project) => {
+        const el = document.createElement("div");
+        el.classList.add("col", "s12", "m6", "l4");
 
 
-      el.innerHTML = `
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="${project.title}" src="/assets/img/${project.logo}" style="height: 100%; width: 100%" class="activator">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator blue-text hoverline">${project.title}<i class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  ${project.summary}
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> ${project.tools}</li>
-                  <!-- TODO: bullet points? -->
+        el.innerHTML = `
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="${project.title}" src="/assets/img/${project.logo}" style="height: 100%; width: 100%" class="activator">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator blue-text hoverline">${project.title}<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>
+                    ${project.summary}
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><b>Tools:</b> ${project.tools}</li>
+                    <!-- TODO: bullet points? -->
 
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="${project.link}" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="${project.github}" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+                  </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit " href="${project.link}" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>
+                    <a aria-label="Visit the GitHub repo for  project" href="${project.github}" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-      `;
-      projectParent.appendChild(el)
+        `;
+        projectParent.appendChild(el)
+      });
     }
 
     displayMore(numProjects);
