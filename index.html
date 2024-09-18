@@ -393,10 +393,10 @@ environment
       <div class="container">
         <div class="row">
           <div id="project-container"></div>
-          <button class="load-more-button" id="load-more-button">Load More</button>
           <!-- ************* -->
         </div>
       </div>
+      <button class="load-more-button" id="load-more-button">Load More</button>
     </section>
 
     <!-- Fifth Section: Skills -->
@@ -706,9 +706,9 @@ environment
     displayMore(numProjects);
 
     loadMoreButton.addEventListener("click", () => {
-      numLoaded += 1;
-      displayMore(numLoaded);
-      if (numLoaded >= projects.length) {
+      numProjects += 1;
+      displayMore(numProjects);
+      if (numProjects >= projects.length) {
         loadMoreButton.style.display = "none";
       }
     })
