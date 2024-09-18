@@ -612,30 +612,35 @@ environment
   <script>
     const loadMoreButton = document.getElementById("load-more-button");
     const projectParent = document.getElementById("project-container")
-    const projects = [
-      {
-        summary: "An AI companion leveraging Google Cloud STT, that provides feedback on oral skills in 6 languages.",
-        title: "Parla Chat",
-        logo: "parla.png",
-        link: "",
-        github: "https://github.com/kimhbryan/parla/tree/main"
-      },
+    let projects = [
       {
         summary: "A C++ project with implementation of pathfinding algorithms and map visualization.",
         title: "Student Life Mapper",
         logo: "mapper.png",
         link: "",
-        github: "https://gitfront.io/r/dividividib/UkY4B3JybKy6/StudentLifeMap/"
+        github: "https://gitfront.io/r/dividividib/UkY4B3JybKy6/StudentLifeMap/",
+        date: new Date("January 1, 2022")
+      },
+      {
+        summary: "An AI companion leveraging Google Cloud STT, that provides feedback on oral skills in 6 languages.",
+        title: "Parla Chat",
+        logo: "parla.png",
+        link: "",
+        github: "https://github.com/kimhbryan/parla/tree/main":
+        date: new Date("September 15, 2023")
       },
       {
         summary: "A mock social media platform created using the NASA Mars Rover API",
         title: "Spacestagram",
         logo: "spacestagram.png",
         link: "https://dylncheng.github.io/spacestagram/",
-        github: "https://github.com/dylncheng/spacestagram/"
+        github: "https://github.com/dylncheng/spacestagram/",
+        date: new Date("Febuary 1, 2021")
       }
     ]
     let numProjects = 1;
+
+    projects.sort((a, b) => a.date > b.date)
     
 
     const displayMore =  (numLoaded = 1) => {
