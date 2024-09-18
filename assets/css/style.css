@@ -566,6 +566,26 @@ small {
   background-color: #00695c !important;
 } */
 
+.load-more-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4f529a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-button:hover {
+  background-color: #2d3075;
+}
+
+.load-more-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(20, 89, 136, 0.5);
+}
+
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
