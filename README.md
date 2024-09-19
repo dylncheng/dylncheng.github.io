@@ -1,2 +1,2 @@
 # Dylan Cheng Personal Portfolio 
-> Cloned from https://varadbhogayata.github.io
+> This repo is a clone of https://varadbhogayata.github.io
