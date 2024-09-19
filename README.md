@@ -1,10 +1,13 @@
 # Dylan Cheng Personal Portfolio 
 > This repo is a clone of https://varadbhogayata.github.io
 
-## Activity-1
+## ACTIVITY 1
 <img width="917" alt="Activity 1" src="https://github.com/user-attachments/assets/662996e4-5704-4f06-8bb8-96eb1780eee6">
 
-## Activity-2
+
+
+
+## ACTIVITY 2
 <img width="937" alt="Activity 2" src="https://github.com/user-attachments/assets/7b93af8b-10e4-4464-9f9c-e7636ee2a746">
 
 <img width="1822" alt="Screenshot 2024-09-19 at 2 50 37 PM" src="https://github.com/user-attachments/assets/807b5b83-c508-4f47-9fcc-999fc3210819">
@@ -17,7 +20,9 @@
 <img width="1470" alt="Screenshot 2024-09-19 at 2 51 27 PM" src="https://github.com/user-attachments/assets/8b41a824-40c6-4155-8b78-c7c0c189b8b1">
 <img width="1467" alt="Screenshot 2024-09-19 at 2 51 32 PM" src="https://github.com/user-attachments/assets/01642eaa-dd5f-4b5e-aabb-9fe51e15a3c7">
 
-## Activity-3
+
+
+## ACTIVITY 3
 <img width="920" alt="Activity 3" src="https://github.com/user-attachments/assets/934b7d9c-c13e-426a-b319-deff97d71ef6">
 
 <img width="1822" alt="Screenshot 2024-09-19 at 2 54 19 PM" src="https://github.com/user-attachments/assets/5fa7c31d-cad9-40d9-a9a2-ea8e8f148f92">
@@ -30,12 +35,19 @@
 <img width="1474" alt="Screenshot 2024-09-19 at 2 55 11 PM" src="https://github.com/user-attachments/assets/3f55e324-2127-4b7e-b20f-e552d6a4bd0c">
 <img width="1494" alt="Screenshot 2024-09-19 at 2 55 17 PM" src="https://github.com/user-attachments/assets/e75bbe58-4950-4a93-9d36-98852f3da932">
 
-## Activity-4
+
+
+
+## ACTIVITY 4
 <img width="943" alt="Activity 4" src="https://github.com/user-attachments/assets/f1a86624-5f7a-4a20-8750-197aef5e3e01">
 <img width="1822" alt="Screenshot 2024-09-19 at 2 58 39 PM" src="https://github.com/user-attachments/assets/161a2a46-6a51-409e-b9fd-2c84116e14f6">
 <img width="1497" alt="Screenshot 2024-09-19 at 2 57 42 PM" src="https://github.com/user-attachments/assets/980516ce-a4dd-476c-bf69-0068c5dcf59f">
 
-## Activity-5
+
+
+
+
+## ACTIVITY 5
 <img width="909" alt="Activity 5" src="https://github.com/user-attachments/assets/07b7c5a7-c5b5-4abd-bc6c-4aeb2664494b">
 <img width="1489" alt="Screenshot 2024-09-19 at 2 59 45 PM" src="https://github.com/user-attachments/assets/1e2d3840-1f56-4ab9-836b-b6633ab17361">
 <img width="1491" alt="Screenshot 2024-09-19 at 2 59 51 PM" src="https://github.com/user-attachments/assets/a9f87e25-6448-4477-9de2-21a698cdca8e">
