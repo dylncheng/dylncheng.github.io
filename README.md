@@ -25,7 +25,7 @@
 ## ACTIVITY 3
 <img width="920" alt="Activity 3" src="https://github.com/user-attachments/assets/934b7d9c-c13e-426a-b319-deff97d71ef6">
 
-<img width="1822" alt="Screenshot 2024-09-19 at 2 54 19 PM" src="https://github.com/user-attachments/assets/5fa7c31d-cad9-40d9-a9a2-ea8e8f148f92">
+<img width="1822" alt="Screenshot 2024-09-20 at 3 19 13 PM" src="https://github.com/user-attachments/assets/2de7d47c-943d-4a94-9161-0a484cd53709">
 <img width="1499" alt="Screenshot 2024-09-19 at 2 54 25 PM" src="https://github.com/user-attachments/assets/c0f0f019-53c5-44ac-af2d-b935a4e54ff9">
 <img width="1494" alt="Screenshot 2024-09-19 at 2 54 36 PM" src="https://github.com/user-attachments/assets/ed3f06af-f3e3-4a77-a44b-3167ca08611f">
 <img width="1474" alt="Screenshot 2024-09-19 at 2 54 42 PM" src="https://github.com/user-attachments/assets/4dc68228-4e2d-4801-8479-17e8fc7aed99">
@@ -40,7 +40,7 @@
 
 ## ACTIVITY 4
 <img width="943" alt="Activity 4" src="https://github.com/user-attachments/assets/f1a86624-5f7a-4a20-8750-197aef5e3e01">
-<img width="1822" alt="Screenshot 2024-09-19 at 2 58 39 PM" src="https://github.com/user-attachments/assets/161a2a46-6a51-409e-b9fd-2c84116e14f6">
+<img width="1822" alt="Screenshot 2024-09-20 at 3 18 59 PM" src="https://github.com/user-attachments/assets/b1f1c32b-3203-4cd9-9a2a-41a5fb5295e2">
 <img width="1497" alt="Screenshot 2024-09-19 at 2 57 42 PM" src="https://github.com/user-attachments/assets/980516ce-a4dd-476c-bf69-0068c5dcf59f">
 
 
